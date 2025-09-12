@@ -3,16 +3,19 @@ import React from 'react';
 const Patents = () => {
   const patents = [
     {
-      title: "Distributed Data Processing System",
-      patentNumber: "US Patent 10,123,456",
-      date: "2023",
+      title: "Multi-level key hierarchy for securing cloud-based data sets",
+      patentNumber: "US Patent US9544140B1",
       status: "Granted"
     },
     {
-      title: "Real-time Analytics Framework",
-      patentNumber: "US Patent Application 17,987,654",
-      date: "2022",
-      status: "Pending"
+      title: "Process for data migration between document stores",
+      patentNumber: "US Patent US10157214B1",
+      status: "Granted"
+    }, 
+      {
+      title: "System for controlling access to stored values",
+      patentNumber: "US Patent US10157214B1",
+      status: "Granted"
     }
   ];
 
@@ -27,7 +30,6 @@ const Patents = () => {
                 <h4>{patent.title}</h4>
                 <div className="patent-meta">
                   <span className="patent-number">{patent.patentNumber}</span>
-                  <span className="patent-date">{patent.date}</span>
                   <span className={`patent-status ${patent.status.toLowerCase()}`}>
                     {patent.status}
                   </span>

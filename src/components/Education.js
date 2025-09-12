@@ -4,15 +4,15 @@ const Education = () => {
   const education = [
     {
       degree: "Master of Science in Computer Science",
-      institution: "University Name",
-      period: "2014 - 2016",
-      details: "Specialized in Software Engineering and Machine Learning. Thesis on distributed systems architecture."
+      institution: "IIIT - Hyderabad, India",
+      period: "2007 - 2009",
+      details: "Specialization in Database Systems, Data Mining and Natural Language Processing. Thesis on Recommendation Systems."
     },
     {
-      degree: "Bachelor of Science in Computer Engineering",
-      institution: "College Name",
-      period: "2010 - 2014",
-      details: "Graduated Magna Cum Laude. Relevant coursework: Data Structures, Algorithms, Database Systems, Web Development."
+      degree: "Bachelor of Technology in Computer Science",
+      institution: "IIIT - Hyderabad, India",
+      period: "2000 - 2004",
+      details: "Graduated with Honors in Data Engineering."
     }
   ];
 

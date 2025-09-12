@@ -9,19 +9,27 @@ const Contact = () => {
           <div className="contact-info">
             <div className="contact-item">
               <h3>Email</h3>
-              <p>your.email@example.com</p>
+              <p>phanikum@outlook.com</p>
             </div>
             <div className="contact-item">
               <h3>Phone</h3>
-              <p>+1 (555) 123-4567</p>
+              <p>+1 (111) 123-4567</p>
             </div>
             <div className="contact-item">
               <h3>Location</h3>
-              <p>San Francisco, CA</p>
+              <p>Seattle, WA</p>
             </div>
             <div className="contact-item">
               <h3>LinkedIn</h3>
-              <p>linkedin.com/in/yourprofile</p>
+              <p>
+                <a 
+                  href="https://www.linkedin.com/in/phanibhamidipati/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  linkedin.com/in/phanibhamidipati
+                </a>
+              </p>
             </div>
           </div>
         </div>

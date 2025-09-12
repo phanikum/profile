@@ -288,6 +288,18 @@ body {
   line-height: 1.4;
 }
 
+.contact-item a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
 /* Compact Layout Adjustments */
 .single-page .about-content p {
   font-size: 1rem;
