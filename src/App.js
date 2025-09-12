@@ -7,6 +7,7 @@ import Education from './components/Education';
 import Patents from './components/Patents';
 import SideProjects from './components/SideProjects';
 import Contact from './components/Contact';
+import SmartyQuest from './components/SmartyQuest';
 
 function App() {
   return (
@@ -43,6 +44,8 @@ function App() {
           <p>&copy; 2025 Phani Bhamidipati. All rights reserved.</p>
         </div>
       </footer>
+      
+      <SmartyQuest />
     </div>
   );
 }
