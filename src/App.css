@@ -323,6 +323,19 @@ body {
   text-decoration: underline;
 }
 
+/* Page Components */
+.home-page {
+  min-height: 100vh;
+}
+
+.smarty-quest-page {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
 /* SmartyQuest Section */
 .smarty-quest {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
