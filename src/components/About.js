@@ -7,9 +7,11 @@ const About = () => {
         <h2>About</h2>
         <div className="about-content">
           <div className="profile-image-container">
-            <div className="profile-image-placeholder">
-              <span>Your Photo</span>
-            </div>
+            <img 
+              src="/images/phanikum_small.png" 
+              alt="Phanikum's Profile Photo" 
+              className="profile-image"
+            />
           </div>
           <div className="about-text">
             <p>
