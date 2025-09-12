@@ -1,0 +1,39 @@
+{
+  "quiz": [
+    {
+      "question": "Which animal is known as the king of the jungle?",
+      "options": ["Lion", "Elephant", "Tiger"],
+      "answer": "Lion",
+      "topic": "Animals",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is 12 × 8?",
+      "options": ["96", "108", "88"],
+      "answer": "96",
+      "topic": "Math",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What planet is known as the Red Planet?",
+      "options": ["Mars", "Venus", "Jupiter"],
+      "answer": "Mars",
+      "topic": "Science",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Who is the main dragon character in the first book of *Wings of Fire*?",
+      "options": ["Clay", "Tsunami", "Glory"],
+      "answer": "Clay",
+      "topic": "Wings of Fire",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which type of scientist studies rocks and minerals?",
+      "options": ["Geologist", "Biologist", "Astronomer"],
+      "answer": "Geologist",
+      "topic": "Science",
+      "difficulty": "medium"
+    }
+  ]
+}

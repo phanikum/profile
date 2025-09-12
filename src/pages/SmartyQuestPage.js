@@ -11,8 +11,8 @@ const SmartyQuestPage = () => {
     setQuizData(null);
 
     try {
-      // For now, we'll use a mock API call - replace with your actual API endpoint
-      const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+      // Fetch the local quiz data
+      const response = await fetch('/profile/samplequizdata.json');
       
       if (!response.ok) {
         throw new Error('Failed to fetch quiz data');
