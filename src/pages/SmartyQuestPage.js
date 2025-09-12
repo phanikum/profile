@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import QuizService from '../services/quizService.js';
 
 const SmartyQuestPage = () => {
   const [quizData, setQuizData] = useState(null);
@@ -10,6 +11,7 @@ const SmartyQuestPage = () => {
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [score, setScore] = useState(0);
   const [showResults, setShowResults] = useState(false);
+  const [dataSource, setDataSource] = useState(null);
 
   const handleTakeQuiz = async () => {
     setLoading(true);
@@ -23,15 +25,12 @@ const SmartyQuestPage = () => {
     setShowResults(false);
 
     try {
-      // Fetch the local quiz data
-      const response = await fetch('/profile/samplequizdata.json');
-      
-      if (!response.ok) {
-        throw new Error('Failed to fetch quiz data');
-      }
-      
-      const data = await response.json();
+      // Fetch quiz data from AWS API Gateway with fallback to local JSON
+      const data = await QuizService.fetchQuizData({
+        count: 5 // Default to 5 questions
+      });
       setQuizData(data);
+      setDataSource(data.source);
     } catch (err) {
       setError(err.message);
     } finally {
@@ -75,6 +74,7 @@ const SmartyQuestPage = () => {
     setQuizCompleted(false);
     setScore(0);
     setShowResults(false);
+    setDataSource(null);
   };
 
   const getScoreMessage = () => {
@@ -228,9 +228,18 @@ const SmartyQuestPage = () => {
                   style={{ width: `${((currentQuestion + 1) / quizData.quiz.length) * 100}%` }}
                 ></div>
               </div>
-              <p className="question-counter">
-                Question {currentQuestion + 1} of {quizData.quiz.length}
-              </p>
+              <div className="quiz-header-info">
+                <p className="question-counter">
+                  Question {currentQuestion + 1} of {quizData.quiz.length}
+                </p>
+                {dataSource && (
+                  <div className={`data-source-indicator ${dataSource}`}>
+                    {dataSource === 'aws-api-gateway' && '☁️ AWS'}
+                    {dataSource === 'local-api' && '🏠 Local API'}
+                    {dataSource === 'local-json' && '📄 Local'}
+                  </div>
+                )}
+              </div>
             </div>
 
             <div className="quiz-question">
