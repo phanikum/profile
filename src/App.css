@@ -795,18 +795,21 @@ body {
 }
 
 .user-answer.correct {
-  color: #4CAF50;
+  color: #81C784;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .user-answer.incorrect {
-  color: #f44336;
+  color: #EF5350;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .correct-answer {
-  color: #4CAF50;
+  color: #81C784;
   margin: 8px 0;
   font-size: 1rem;
   font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .results-actions {
