@@ -26,7 +26,7 @@ const SmartyQuestPage = () => {
 
     try {
       // Fetch quiz data from AWS API Gateway with fallback to local JSON
-      const data = await QuizService.fetchQuizData({
+      const data = await QuizService.fetchCustomQuizData({
         count: 5 // Default to 5 questions
       });
       setQuizData(data);

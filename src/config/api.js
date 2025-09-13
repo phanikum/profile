@@ -19,7 +19,7 @@ const API_CONFIG = {
   TIMEOUT: 10000,
   
   // Whether to use local development mode
-  USE_LOCAL_API: process.env.NODE_ENV === 'development' && process.env.REACT_APP_USE_LOCAL_API === 'true'
+  USE_LOCAL_API: process.env.NODE_ENV === 'development'
 };
 
 export default API_CONFIG;

@@ -175,12 +175,12 @@ class QuizService {
     }
     
     // Fallback to GET request with basic filtering
-    console.log('Falling back to GET request with basic filtering');
-    const { topics, difficulties, count } = requestBody;
-    const topic = topics && topics.length > 0 ? topics[0] : undefined;
-    const difficulty = difficulties && difficulties.length > 0 ? difficulties[0] : undefined;
+    // console.log('Falling back to GET request with basic filtering');
+    // const { topics, difficulties, count } = requestBody;
+    // const topic = topics && topics.length > 0 ? topics[0] : undefined;
+    // const difficulty = difficulties && difficulties.length > 0 ? difficulties[0] : undefined;
     
-    return this.fetchQuizData({ topic, difficulty, count });
+    // return this.fetchQuizData({ topic, difficulty, count });
   }
   
   /**
