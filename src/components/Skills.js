@@ -3,17 +3,13 @@ import React from 'react';
 const Skills = () => {
   const skillCategories = [
     {
+      category: "Organizational Leadership",
+      skills: ["Engineering Leadership", "Technical Strategy", "Leading Transformational Change"]
+    },
+    {
       category: "Technical Skills",
-      skills: ["JavaScript", "React", "Node.js", "Python", "SQL", "Git"]
+      skills: ["Voice AI", "Geneartive AI", "Distributed Systems", "AWS", "Finance Technology",  "Accessibility Tech"]
     },
-    {
-      category: "Soft Skills",
-      skills: ["Problem Solving", "Team Leadership", "Communication", "Project Management"]
-    },
-    {
-      category: "Tools & Technologies",
-      skills: ["VS Code", "Docker", "AWS", "MongoDB", "PostgreSQL"]
-    }
   ];
 
   return (

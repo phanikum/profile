@@ -4,7 +4,7 @@ import Skills from '../components/Skills';
 import Experience from '../components/Experience';
 import Education from '../components/Education';
 import Patents from '../components/Patents';
-import SideProjects from '../components/SideProjects';
+import PersonalProjects from '../components/PersonalProjects';
 import Contact from '../components/Contact';
 
 const HomePage = () => {
@@ -32,7 +32,7 @@ const HomePage = () => {
         <div className="bottom-section">
           <div className="bottom-grid">
             <Contact />
-            <SideProjects />
+            <PersonalProjects />
           </div>
         </div>
       </main>
