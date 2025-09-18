@@ -6,6 +6,7 @@ import Education from '../components/Education';
 import Patents from '../components/Patents';
 import PersonalProjects from '../components/PersonalProjects';
 import Contact from '../components/Contact';
+import Annotations from '../components/Annotations';
 
 const HomePage = () => {
   return (
@@ -36,6 +37,8 @@ const HomePage = () => {
           </div>
         </div>
       </main>
+      
+      <Annotations page="profile" />
       
       <footer className="app-footer">
         <div className="container">

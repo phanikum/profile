@@ -337,6 +337,12 @@ body {
   color: white;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
+}
+
+.smarty-quest-main {
+  flex: 1;
+  display: flex;
   align-items: center;
 }
 
@@ -914,6 +920,52 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+/* Annotations Section */
+.annotations {
+  background: #f1f3f4;
+  padding: 15px 0;
+  margin-top: 40px;
+  border-top: 1px solid #e9ecef;
+}
+
+.annotations-title {
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.annotations-content {
+  font-size: 0.65rem;
+  color: #6c757d;
+  line-height: 1.4;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.annotation-item {
+  display: inline;
+}
+
+/* SmartyQuest Annotations - Different styling for gradient background */
+.smarty-quest-page .annotations {
+  background: rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.smarty-quest-page .annotations-title {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.smarty-quest-page .annotations-content {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Footer */
