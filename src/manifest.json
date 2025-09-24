@@ -1,0 +1,543 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2023-07-20",
+  "apps": [
+    {
+      "id": "netflix-001",
+      "name": "Netflix",
+      "developer": "Netflix, Inc.",
+      "category": "Entertainment",
+      "subCategory": "Streaming",
+      "rating": 4.5,
+      "reviews": 2500000,
+      "price": 0.00,
+      "hasInAppPurchases": true,
+      "description": "Stream award-winning TV shows, movies, anime, documentaries, and more on your phone.",
+      "features": ["Download titles to watch offline", "Multi-language support"],
+      "images": {
+        "icon": "/images/netflix-icon.png",
+        "screenshots": ["/images/netflix-screen1.jpg"]
+      },
+      "tags": ["streaming", "tv", "movies"],
+      "isTopPick": true,
+      "installationStatus": {
+        "isInstalled": true,
+        "installedVersion": "7.4.2",
+        "hasUpdate": true,
+        "status": "UPDATE_AVAILABLE"
+      }
+    },
+    {
+      "id": "spotify-002",
+      "name": "Spotify",
+      "developer": "Spotify AB",
+      "category": "Entertainment",
+      "subCategory": "Music",
+      "rating": 4.7,
+      "reviews": 3200000,
+      "price": 0.00,
+      "hasInAppPurchases": true,
+      "description": "Listen to your favorite music, podcasts, and more.",
+      "features": ["Offline playback", "Playlist creation"],
+      "images": {
+        "icon": "/images/spotify-icon.png",
+        "screenshots": ["/images/spotify-screen1.jpg"]
+      },
+      "tags": ["music", "streaming"],
+      "isTopPick": true,
+      "installationStatus": {
+        "isInstalled": true,
+        "installedVersion": "8.8.2",
+        "hasUpdate": false,
+        "status": "INSTALLED"
+      }
+    },
+    {
+      "id": "kindle-003",
+      "name": "Kindle",
+      "developer": "Amazon",
+      "category": "Books",
+      "subCategory": "eReader",
+      "rating": 4.8,
+      "reviews": 1800000,
+      "price": 0.00,
+      "hasInAppPurchases": true,
+      "description": "Read eBooks, magazines, and newspapers on your phone.",
+      "features": ["Night mode", "Offline reading"],
+      "images": {
+        "icon": "/images/kindle-icon.png",
+        "screenshots": ["/images/kindle-screen1.jpg"]
+      },
+      "tags": ["books", "reading"],
+      "isTopPick": true,
+      "installationStatus": {
+        "isInstalled": false,
+        "installedVersion": null,
+        "hasUpdate": false,
+        "status": "NOT_INSTALLED"
+      }
+    },
+    {
+      "id": "instagram-004",
+      "name": "Instagram",
+      "developer": "Meta",
+      "category": "Social",
+      "subCategory": "Social Network",
+      "rating": 4.3,
+      "reviews": 4500000,
+      "price": 0.00,
+      "hasInAppPurchases": false,
+      "description": "Share photos and videos with friends.",
+      "features": ["Photo filters", "Stories"],
+      "images": {
+        "icon": "/images/instagram-icon.png",
+        "screenshots": ["/images/instagram-screen1.jpg"]
+      },
+      "tags": ["social", "photos"],
+      "isTopPick": true,
+      "installationStatus": {
+        "isInstalled": true,
+        "installedVersion": "245.0",
+        "hasUpdate": false,
+        "status": "INSTALLED"
+      }
+    },
+    {
+      "id": "minecraft-005",
+      "name": "Minecraft",
+      "developer": "Mojang",
+      "category": "Games",
+      "subCategory": "Adventure",
+      "rating": 4.5,
+      "reviews": 1200000,
+      "price": 7.99,
+      "hasInAppPurchases": true,
+      "description": "Build, create, and explore infinite worlds.",
+      "features": ["Multiplayer", "Creative mode"],
+      "images": {
+        "icon": "/images/minecraft-icon.png",
+        "screenshots": ["/images/minecraft-screen1.jpg"]
+      },
+      "tags": ["games", "adventure"],
+      "isTopPick": true,
+      "installationStatus": {
+        "isInstalled": false,
+        "installedVersion": null,
+        "hasUpdate": false,
+        "status": "NOT_INSTALLED"
+      }
+    },
+    {
+      "id": "duolingo-006",
+      "name": "Duolingo",
+      "developer": "Duolingo",
+      "category": "Education",
+      "subCategory": "Languages",
+      "rating": 4.7,
+      "reviews": 1500000,
+      "price": 0.00,
+      "hasInAppPurchases": true,
+      "description": "Learn languages for free.",
+      "features": ["Daily lessons", "Progress tracking"],
+      "images": {
+        "icon": "/images/duolingo-icon.png",
+        "screenshots": ["/images/duolingo-screen1.jpg"]
+      },
+      "tags": ["education", "languages"],
+      "isTopPick": false,
+      "installationStatus": {
+        "isInstalled": true,
+        "installedVersion": "5.2.1",
+        "hasUpdate": true,
+        "status": "UPDATE_AVAILABLE"
+      }
+    },
+    {
+      "id": "uber-007",
+      "name": "Uber",
+      "developer": "Uber Technologies",
+      "category": "Travel",
+      "subCategory": "Transportation",
+      "rating": 4.2,
+      "reviews": 2800000,
+      "price": 0.00,
+      "hasInAppPurchases": false,
+      "description": "Request rides and track your driver.",
+      "features": ["Live tracking", "Multiple payment options"],
+      "images": {
+        "icon": "/images/uber-icon.png",
+        "screenshots": ["/images/uber-screen1.jpg"]
+      },
+      "tags": ["transportation", "travel"],
+      "isTopPick": false,
+      "installationStatus": {
+        "isInstalled": true,
+        "installedVersion": "4.402.10002",
+        "hasUpdate": false,
+        "status": "INSTALLED"
+      }
+    },
+    {
+      "id": "whatsapp-008",
+      "name": "WhatsApp",
+      "developer": "Meta",
+      "category": "Social",
+      "subCategory": "Messaging",
+      "rating": 4.6,
+      "reviews": 5500000,
+      "price": 0.00,
+      "hasInAppPurchases": false,
+      "description": "Simple, reliable messaging and calling.",
+      "features": ["End-to-end encryption", "Group chats"],
+      "images": {
+        "icon": "/images/whatsapp-icon.png",
+        "screenshots": ["/images/whatsapp-screen1.jpg"]
+      },
+      "tags": ["messaging", "social"],
+      "isTopPick": true,
+      "installationStatus": {
+        "isInstalled": true,
+        "installedVersion": "2.23.15.8",
+        "hasUpdate": false,
+        "status": "INSTALLED"
+      }
+    },
+    {
+      "id": "candy-crush-009",
+      "name": "Candy Crush Saga",
+      "developer": "King",
+      "category": "Games",
+      "subCategory": "Casual",
+      "rating": 4.4,
+      "reviews": 2900000,
+      "price": 0.00,
+      "hasInAppPurchases": true,
+      "description": "Match candies in this tasty puzzle adventure.",
+      "features": ["Thousands of levels", "Social features"],
+      "images": {
+        "icon": "/images/candycrush-icon.png",
+        "screenshots": ["/images/candycrush-screen1.jpg"]
+      },
+      "tags": ["games", "puzzle"],
+      "isTopPick": false,
+      "installationStatus": {
+        "isInstalled": false,
+        "installedVersion": null,
+        "hasUpdate": false,
+        "status": "NOT_INSTALLED"
+      }
+    },
+    {
+      "id": "googlemap-010",
+      "name": "Google Maps",
+      "developer": "Google LLC",
+      "category": "Travel",
+      "subCategory": "Navigation",
+      "rating": 4.7,
+      "reviews": 4800000,
+      "price": 0.00,
+      "hasInAppPurchases": false,
+      "description": "Real-time GPS navigation & local search.",
+      "features": ["Offline maps", "Real-time traffic"],
+      "images": {
+        "icon": "/images/gmaps-icon.png",
+        "screenshots": ["/images/gmaps-screen1.jpg"]
+      },
+      "tags": ["navigation", "maps"],
+      "isTopPick": true,
+      "installationStatus": {
+        "isInstalled": true,
+        "installedVersion": "11.3.1",
+        "hasUpdate": true,
+        "status": "UPDATE_AVAILABLE"
+      }
+    },
+    {
+      "id": "youtube-011",
+      "name": "YouTube",
+      "developer": "Google LLC",
+      "category": "Entertainment",
+      "subCategory": "Video",
+      "rating": 4.4,
+      "reviews": 5900000,
+      "price": 0.00,
+      "hasInAppPurchases": true,
+      "description": "Watch, stream, and discover videos.",
+      "features": ["Video sharing", "Live streaming"],
+      "images": {
+        "icon": "/images/youtube-icon.png",
+        "screenshots": ["/images/youtube-screen1.jpg"]
+      },
+      "tags": ["video", "streaming"],
+      "isTopPick": true,
+      "installationStatus": {
+        "isInstalled": true,
+        "installedVersion": "18.23.35",
+        "hasUpdate": false,
+        "status": "INSTALLED"
+      }
+    },
+    {
+      "id": "twitter-012",
+      "name": "Twitter",
+      "developer": "X Corp",
+      "category": "Social",
+      "subCategory": "Social Network",
+      "rating": 4.1,
+      "reviews": 2200000,
+      "price": 0.00,
+      "hasInAppPurchases": false,
+      "description": "Join the conversation.",
+      "features": ["Real-time updates", "Trending topics"],
+      "images": {
+        "icon": "/images/twitter-icon.png",
+        "screenshots": ["/images/twitter-screen1.jpg"]
+      },
+      "tags": ["social", "news"],
+      "isTopPick": false,
+      "installationStatus": {
+        "isInstalled": false,
+        "installedVersion": null,
+        "hasUpdate": false,
+        "status": "NOT_INSTALLED"
+      }
+    },
+    {
+      "id": "tiktok-013",
+      "name": "TikTok",
+      "developer": "ByteDance",
+      "category": "Entertainment",
+      "subCategory": "Social",
+      "rating": 4.5,
+      "reviews": 3800000,
+      "price": 0.00,
+      "hasInAppPurchases": true,
+      "description": "Short-form video platform.",
+      "features": ["Video creation", "Filters and effects"],
+      "images": {
+        "icon": "/images/tiktok-icon.png",
+        "screenshots": ["/images/tiktok-screen1.jpg"]
+      },
+      "tags": ["social", "video"],
+      "isTopPick": true,
+      "installationStatus": {
+        "isInstalled": true,
+        "installedVersion": "27.1.5",
+        "hasUpdate": false,
+        "status": "INSTALLED"
+      }
+    },
+    {
+      "id": "zoom-014",
+      "name": "Zoom",
+      "developer": "Zoom Video Communications",
+      "category": "Business",
+      "subCategory": "Video Conferencing",
+      "rating": 4.4,
+      "reviews": 1900000,
+      "price": 0.00,
+      "hasInAppPurchases": true,
+      "description": "Video conferencing and messaging.",
+      "features": ["HD video", "Screen sharing"],
+      "images": {
+        "icon": "/images/zoom-icon.png",
+        "screenshots": ["/images/zoom-screen1.jpg"]
+      },
+      "tags": ["business", "meetings"],
+      "isTopPick": false,
+      "installationStatus": {
+        "isInstalled": true,
+        "installedVersion": "5.15.5",
+        "hasUpdate": true,
+        "status": "UPDATE_AVAILABLE"
+      }
+    },
+    {
+      "id": "pinterest-015",
+      "name": "Pinterest",
+      "developer": "Pinterest",
+      "category": "Social",
+      "subCategory": "Lifestyle",
+      "rating": 4.6,
+      "reviews": 1600000,
+      "price": 0.00,
+      "hasInAppPurchases": false,
+      "description": "Find and save creative ideas.",
+      "features": ["Visual discovery", "Idea boards"],
+      "images": {
+        "icon": "/images/pinterest-icon.png",
+        "screenshots": ["/images/pinterest-screen1.jpg"]
+      },
+      "tags": ["social", "lifestyle"],
+      "isTopPick": false,
+      "installationStatus": {
+        "isInstalled": false,
+        "installedVersion": null,
+        "hasUpdate": false,
+        "status": "NOT_INSTALLED"
+      }
+    },
+    {
+      "id": "slack-016",
+      "name": "Slack",
+      "developer": "Slack Technologies",
+      "category": "Business",
+      "subCategory": "Communication",
+      "rating": 4.5,
+      "reviews": 1100000,
+      "price": 0.00,
+      "hasInAppPurchases": true,
+      "description": "Business communication platform.",
+      "features": ["Channel-based messaging", "File sharing"],
+      "images": {
+        "icon": "/images/slack-icon.png",
+        "screenshots": ["/images/slack-screen1.jpg"]
+      },
+      "tags": ["business", "productivity"],
+      "isTopPick": false,
+      "installationStatus": {
+        "isInstalled": true,
+        "installedVersion": "22.07.10",
+        "hasUpdate": false,
+        "status": "INSTALLED"
+      }
+    },
+    {
+      "id": "discord-017",
+      "name": "Discord",
+      "developer": "Discord Inc.",
+      "category": "Social",
+      "subCategory": "Communication",
+      "rating": 4.7,
+      "reviews": 2100000,
+      "price": 0.00,
+      "hasInAppPurchases": true,
+      "description": "Chat, talk, and hang out.",
+      "features": ["Voice channels", "Server communities"],
+      "images": {
+        "icon": "/images/discord-icon.png",
+        "screenshots": ["/images/discord-screen1.jpg"]
+      },
+      "tags": ["social", "gaming"],
+      "isTopPick": true,
+      "installationStatus": {
+        "isInstalled": true,
+        "installedVersion": "126.21",
+        "hasUpdate": false,
+        "status": "INSTALLED"
+      }
+    },
+    {
+      "id": "shazam-018",
+      "name": "Shazam",
+      "developer": "Apple Inc.",
+      "category": "Music",
+      "subCategory": "Music Recognition",
+      "rating": 4.8,
+      "reviews": 950000,
+      "price": 0.00,
+      "hasInAppPurchases": false,
+      "description": "Discover songs playing around you.",
+      "features": ["Music recognition", "Lyrics"],
+      "images": {
+        "icon": "/images/shazam-icon.png",
+        "screenshots": ["/images/shazam-screen1.jpg"]
+      },
+      "tags": ["music", "audio"],
+      "isTopPick": false,
+      "installationStatus": {
+        "isInstalled": false,
+        "installedVersion": null,
+        "hasUpdate": false,
+        "status": "NOT_INSTALLED"
+      }
+    },
+    {
+      "id": "strava-019",
+      "name": "Strava",
+      "developer": "Strava Inc.",
+      "category": "Health & Fitness",
+      "subCategory": "Fitness Tracking",
+      "rating": 4.6,
+      "reviews": 850000,
+      "price": 0.00,
+      "hasInAppPurchases": true,
+      "description": "Track running, cycling & more.",
+      "features": ["GPS tracking", "Social features"],
+      "images": {
+        "icon": "/images/strava-icon.png",
+        "screenshots": ["/images/strava-screen1.jpg"]
+      },
+      "tags": ["fitness", "sports"],
+      "isTopPick": false,
+      "installationStatus": {
+        "isInstalled": true,
+        "installedVersion": "275.0.0",
+        "hasUpdate": true,
+        "status": "UPDATE_AVAILABLE"
+      }
+    },
+    {
+      "id": "venmo-020",
+      "name": "Venmo",
+      "developer": "PayPal, Inc.",
+      "category": "Finance",
+      "subCategory": "Payment",
+      "rating": 4.4,
+      "reviews": 1300000,
+      "price": 0.00,
+      "hasInAppPurchases": false,
+      "description": "Send and receive money.",
+      "features": ["Social payments", "Split bills"],
+      "images": {
+        "icon": "/images/venmo-icon.png",
+        "screenshots": ["/images/venmo-screen1.jpg"]
+      },
+      "tags": ["finance", "payments"],
+      "isTopPick": false,
+      "installationStatus": {
+        "isInstalled": false,
+        "installedVersion": null,
+        "hasUpdate": false,
+        "status": "NOT_INSTALLED"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "entertainment",
+      "name": "Entertainment",
+      "subCategories": ["Streaming", "Music", "Video"]
+    },
+    {
+      "id": "social",
+      "name": "Social",
+      "subCategories": ["Social Network", "Messaging", "Communication"]
+    },
+    {
+      "id": "games",
+      "name": "Games",
+      "subCategories": ["Adventure", "Casual", "Puzzle"]
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "subCategories": ["Communication", "Video Conferencing"]
+    },
+    {
+      "id": "travel",
+      "name": "Travel",
+      "subCategories": ["Navigation", "Transportation"]
+    },
+    {
+      "id": "health-fitness",
+      "name": "Health & Fitness",
+      "subCategories": ["Fitness Tracking", "Workout"]
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "subCategories": ["Payment", "Banking"]
+    }
+  ]
+}
