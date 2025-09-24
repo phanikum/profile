@@ -6,14 +6,14 @@ const PersonalProjects = () => {
     {
       title: "🧠 SmartyQuest",
       description: "An engaging and educational quiz platform designed for kids aged 5-12. Features fun questions about science, nature, animals, and the world around us. Built with React and modern web technologies.",
-      link: "/profile/smartyquest",
+      link: "/smartyquest",
       status: "Live & Interactive",
       date: "Sep 2025"
     },
     {
       title: "🏪 App Mart",
       description: "A digital marketplace for discovering and exploring various applications and tools. Currently under development with plans for a comprehensive app discovery platform.",
-      link: "/profile/appmart",
+      link: "/appmart",
       status: "Under Development",
       date: "Sep 2025"
     }

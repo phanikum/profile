@@ -7,28 +7,15 @@ import AppMartPage from './pages/AppMartPage';
 
 function App() {
   return (
-    <>
-      {/* Root level router for handling redirect from "/" to "/profile" */}
-      <Router>
+    <Router>
+      <div className="App">
         <Routes>
-          <Route path="/" element={<Navigate to="/profile" replace />} />
-          <Route path="/profile/*" element={<ProfileApp />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/smartyquest" element={<SmartyQuestPage />} />
+          <Route path="/appmart" element={<AppMartPage />} />
         </Routes>
-      </Router>
-    </>
-  );
-}
-
-// Separate component for the profile app with its own routing
-function ProfileApp() {
-  return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/smartyquest" element={<SmartyQuestPage />} />
-        <Route path="/appmart" element={<AppMartPage />} />
-      </Routes>
-    </div>
+      </div>
+    </Router>
   );
 }
 
