@@ -8,7 +8,7 @@ const HomePage = () => { // Component renamed to HomePage
     { icon: Phone, text: '(832)-540-4139', href: 'tel:+18325404139', title: 'Phone' },
     { icon: Linkedin, text: 'LinkedIn Profile', href: 'https://www.linkedin.com/in/phanibhamidipati/', title: 'LinkedIn' },
     { icon: Github, text: 'Professional Repos', href: 'https://github.com/phanikum', title: 'GitHub' },
-    { icon: FileText, text: 'Download Resume (PDF)', href: '/PhaniBhamidipati.pdf', title: 'Resume' },
+    { icon: FileText, text: 'Download Resume (PDF)', href: `${process.env.PUBLIC_URL}/PhaniBhamidipati.pdf`, title: 'Resume' },
   ];
 
   const projects = [
