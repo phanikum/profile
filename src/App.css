@@ -1,11 +1,16 @@
-/* Global Styles */
-* {
+/* Tailwind CSS Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles - Only for non-Tailwind pages */
+.legacy-page * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+.legacy-page body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

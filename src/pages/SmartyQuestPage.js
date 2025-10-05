@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import QuizService from '../services/quizService.js';
 import Annotations from '../components/Annotations';
 
@@ -92,9 +93,12 @@ const SmartyQuestPage = () => {
       <div className="smarty-quest-page">
         <div className="smarty-quest-main">
           <div className="container">
+            <header className="page-header">
+              <Link to="/" className="back-link">← Back to Profile</Link>
+              <h1>🧠 SmartyQuest 🌟</h1>
+            </header>
             <div className="smarty-quest-content">
               <div className="quest-header">
-                <h1 className="quest-title">🧠 SmartyQuest 🌟</h1>
                 <p className="quest-description">
                   Welcome to SmartyQuest - the most exciting learning adventure for curious minds! 
                   This fun and educational quiz is specially designed for kids aged 5-12 to explore 
@@ -134,6 +138,10 @@ const SmartyQuestPage = () => {
     return (
       <div className="smarty-quest-page">
         <div className="container">
+          <header className="page-header">
+            <Link to="/" className="back-link">← Back to Profile</Link>
+            <h1>🧠 SmartyQuest 🌟</h1>
+          </header>
           <div className="smarty-quest-content">
             <div className="loading-spinner">
               <h2>🔄 Loading your quiz...</h2>
@@ -149,6 +157,10 @@ const SmartyQuestPage = () => {
     return (
       <div className="smarty-quest-page">
         <div className="container">
+          <header className="page-header">
+            <Link to="/" className="back-link">← Back to Profile</Link>
+            <h1>🧠 SmartyQuest 🌟</h1>
+          </header>
           <div className="smarty-quest-content">
             <div className="quiz-completion">
               <h2>🎉 Quiz Completed!</h2>
@@ -172,6 +184,10 @@ const SmartyQuestPage = () => {
     return (
       <div className="smarty-quest-page">
         <div className="container">
+          <header className="page-header">
+            <Link to="/" className="back-link">← Back to Profile</Link>
+            <h1>🧠 SmartyQuest 🌟</h1>
+          </header>
           <div className="smarty-quest-content">
             <div className="quiz-results">
               <h2>📊 Your SmartyQuest Results</h2>
@@ -224,6 +240,10 @@ const SmartyQuestPage = () => {
     return (
       <div className="smarty-quest-page">
         <div className="container">
+          <header className="page-header">
+            <Link to="/" className="back-link">← Back to Profile</Link>
+            <h1>🧠 SmartyQuest 🌟</h1>
+          </header>
           <div className="smarty-quest-content">
             <div className="quiz-header">
               <div className="progress-bar">
