@@ -49,7 +49,7 @@ const HomePage = () => { // Component renamed to HomePage
             I'm a technology leader with <strong>20+ years of experience</strong> building global engineering organizations and
              delivering high-impact, scalable products. My expertise spans building high-performance distributed systems, leading multi-year
               cloud transformations, launching 0-1 flagship products in a high pace environment  and growing senior talent. I am currently 
-              focused on defining and implementing critical technology that powers discovery, upsell, subscription, engagement and retention of
+              focused on defining and implementing critical technology that powers discovery, monetization, engagement and retention of
               a new customer facing product powered by <strong>Gen AI</strong>.
           </p>
         </header>
