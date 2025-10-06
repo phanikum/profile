@@ -2,13 +2,13 @@ import React from 'react';
 
 import { Mail, Phone, Linkedin, Github, FileText, Zap, Code, Target } from 'lucide-react';
 
-const HomePage = () => { // Component renamed to HomePage
+const HomePage = () => {
   const contactLinks = [
     { icon: FileText, text: 'Resume', href: `${process.env.PUBLIC_URL}/PhaniBhamidipati.pdf`, title: 'Resume' },
     { icon: Mail, text: 'Email', href: 'mailto:phanikumar.bhamidipati@gmail.com', title: 'Email' },
-    { icon: Phone, text: '(832)-540-4139', href: 'tel:+18325404139', title: 'Phone' },
-    { icon: Linkedin, text: 'LinkedIn Profile', href: 'https://www.linkedin.com/in/phanibhamidipati/', title: 'LinkedIn' },
-    { icon: Github, text: 'Professional Repos', href: 'https://github.com/phanikum', title: 'GitHub' },
+    { icon: Phone, text: 'Phone', href: 'tel:+18325404139', title: 'Phone' },
+    { icon: Linkedin, text: 'LinkedIn', href: 'https://www.linkedin.com/in/phanibhamidipati/', title: 'LinkedIn' },
+    { icon: Code, text: 'GitHub', href: 'https://github.com/phanikum', title: 'GitHub' },
   ];
 
   const projects = [
