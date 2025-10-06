@@ -16,7 +16,7 @@ const HomePage = () => { // Component renamed to HomePage
       title: '🧠 SmartyQuest',
       whatItIs: 'SmartyQuest is an engaging and educational quiz platform designed for children aged 8–12, featuring fun, engaging questions about science, nature, and the world. The application is built using the React framework to deliver a fast, responsive, and interactive user experience across modern browsers and devices. The platform\'s primary goal is to make learning accessible and entertaining through dynamic content delivery.',
       whyIBuiltIt: 'The project\'s technical architecture is a direct experiment in Generative AI integration and Cloud-Native scaling. Content is dynamically sourced from GPT-4o, processed for safety and age-appropriateness, and then stored in an AWS S3 bucket. This serverless data pipeline demonstrates key executive priorities: cost optimization (near-zero idle costs), massive scalability (decoupling content generation from runtime), and the ability to establish MLOps patterns for reliably and securely integrating third-party LLM services into a production environment.',
-      stack: 'React, Modern Web Technologies', 
+      stack: 'React, AWS API Gateway, AWS Lambda, GPT 4-o (offline)', 
       status: 'Live & Interactive (Sep 2025)',
       demoLink: '#/smartyquest',
     },
