@@ -67,7 +67,7 @@ const HomePage = () => {
                 <li>Organizational Design, Site Strategy & Succession Planning</li>
                 <li> Cross-Functional Team Management, Operational Excellence </li>
                 <li>Specializing in talent development (Amazon Bar Raiser)</li>
-                <li>Mentorship, Coaching & Leadership Pipeline Development (grew leaders up to Sr. SDM, Principal TPM and Principal Enginee)</li>
+                <li>Mentorship, Coaching & Leadership Pipeline Development (growing leaders up to Sr. SDM, Principal TPM and Principal Engineer)</li>
               </ul>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-5 rounded-xl shadow-md border border-blue-200">
