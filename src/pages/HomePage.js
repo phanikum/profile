@@ -41,12 +41,16 @@ const HomePage = () => { // Component renamed to HomePage
           </h1>
           <h2 className="text-xl sm:text-2xl font-semibold text-purple-700 mt-2 flex items-center">
             <Zap className="w-6 h-6 mr-2" />
-            Senior Engineering Leader | Builder of High-Performance Organizations focused on Gen AI
+             Senior Engineering Leader | Builder of High-Performance Organizations | Leading Global Subscription Systems and Gen AI Integration
           </h2>
           
           <p className="text-gray-600 mt-4 leading-relaxed">
             <span className="text-2xl mr-2">👋</span> 
-            I'm a technology leader with <strong>20+ years of experience</strong> transforming global engineering organizations and delivering high-impact, scalable products. My expertise spans building high-performance distributed systems, leading multi-year cloud transformations, and cultivating senior talent. I am currently focused on defining and implementing next-generation solutions powered by <strong>Generative AI</strong>.
+            I'm a technology leader with <strong>20+ years of experience</strong> building global engineering organizations and
+             delivering high-impact, scalable products. My expertise spans building high-performance distributed systems, leading multi-year
+              cloud transformations, launching 0-1 flagship products in a high pace environment  and growing senior talent. I am currently 
+              focused on defining and implementing critical technology that powers discovery, upsell, subscription, engagement and retention of
+              a new customer facing product powered by <strong>Gen AI</strong>.
           </p>
         </header>
 
