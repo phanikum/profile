@@ -14,14 +14,16 @@ const HomePage = () => { // Component renamed to HomePage
   const projects = [
     {
       title: '🧠 SmartyQuest',
-      description: 'An engaging and educational quiz platform designed for kids aged 8-12. Features fun questions about science, nature, animals, and the world around us. Built with React and content is served from a file in AWS which is sourced from GPT 4o.',
+      whatItIs: 'SmartyQuest is an engaging and educational quiz platform designed for children aged 8–12, featuring fun, engaging questions about science, nature, and the world. The application is built using the React framework to deliver a fast, responsive, and interactive user experience across modern browsers and devices. The platform\'s primary goal is to make learning accessible and entertaining through dynamic content delivery.',
+      whyIBuiltIt: 'The project\'s technical architecture is a direct experiment in Generative AI integration and Cloud-Native scaling. Content is dynamically sourced from GPT-4o, processed for safety and age-appropriateness, and then stored in an AWS S3 bucket. This serverless data pipeline demonstrates key executive priorities: cost optimization (near-zero idle costs), massive scalability (decoupling content generation from runtime), and the ability to establish MLOps patterns for reliably and securely integrating third-party LLM services into a production environment.',
       stack: 'React, Modern Web Technologies', 
       status: 'Live & Interactive (Sep 2025)',
       demoLink: '#/smartyquest',
     },
     {
       title: '🏪 App Mart (Digital Marketplace)',
-      description: 'A digital marketplace for discovering and exploring various applications and tools. Currently under development with plans for a comprehensive app discovery platform. The catalog is static and loaded from a JSON file.',
+      whatItIs: 'A digital marketplace for discovering and exploring various applications and tools. Currently under development with plans for a comprehensive app discovery platform. The catalog is static and loaded from a JSON file.',
+      whyIBuiltIt: 'I built this to demonstrate modern e-commerce and marketplace design patterns. It serves as a testing ground for exploring React component architecture, state management, and user interface design principles that could be applied to larger-scale marketplace applications.',
       stack: 'React',
       status: 'Under Development (Sep 2025)',
       demoLink: '#/appmart',
@@ -113,8 +115,24 @@ const HomePage = () => { // Component renamed to HomePage
           <div className="space-y-6">
             {projects.map((project, index) => (
               <div key={index} className={`${index === 0 ? 'bg-gradient-to-br from-green-50 to-emerald-100 border-green-200' : 'bg-gradient-to-br from-orange-50 to-amber-100 border-orange-200'} border p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300`}>
-                <h4 className={`text-xl font-semibold mb-3 ${index === 0 ? 'text-green-800' : 'text-orange-800'}`}>{project.title}</h4>
-                <p className="text-gray-700 mb-4 leading-relaxed">{project.description}</p>
+                <h4 className={`text-xl font-semibold mb-4 ${index === 0 ? 'text-green-800' : 'text-orange-800'}`}>{project.title}</h4>
+                
+                {/* What the Project Is Section */}
+                <div className="mb-4">
+                  <h5 className={`text-lg font-semibold mb-2 ${index === 0 ? 'text-green-700' : 'text-orange-700'}`}>
+                    🔍 What the Project Is
+                  </h5>
+                  <p className="text-gray-700 leading-relaxed">{project.whatItIs}</p>
+                </div>
+
+                {/* Why I Built It Section */}
+                <div className="mb-4">
+                  <h5 className={`text-lg font-semibold mb-2 ${index === 0 ? 'text-green-700' : 'text-orange-700'}`}>
+                    💡 Why I Built It
+                  </h5>
+                  <p className="text-gray-700 leading-relaxed">{project.whyIBuiltIt}</p>
+                </div>
+
                 <div className="flex flex-wrap items-center gap-4 text-sm mb-4">
                   <div className="flex items-center gap-2">
                     <span className="font-medium text-gray-700">Tech Stack:</span>
