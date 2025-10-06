@@ -78,11 +78,11 @@ const HomePage = () => { // Component renamed to HomePage
           </div>
         </section>
 
-        {/* --- CONNECT & RESOURCES --- */}
+        {/* --- CONTACT & CREDENTIALS --- */}
         <section className="py-8 border-b border-gray-100">
           <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center">
             <Code className="w-5 h-5 mr-2 text-purple-600" />
-            Connect & Resources
+            Contact & Credentials
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
             {contactLinks.map((link) => (
