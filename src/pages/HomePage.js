@@ -14,18 +14,16 @@ const HomePage = () => { // Component renamed to HomePage
   const projects = [
     {
       title: '🧠 SmartyQuest',
-      description: 'An engaging and educational quiz platform designed for kids aged 5-12. Features fun questions about science, nature, animals, and the world around us. Built with React and modern web technologies.',
+      description: 'An engaging and educational quiz platform designed for kids aged 8-12. Features fun questions about science, nature, animals, and the world around us. Built with React and content is served from a file in AWS which is sourced from GPT 4o.',
       stack: 'React, Modern Web Technologies', 
       status: 'Live & Interactive (Sep 2025)',
-      repoLink: 'https://github.com/phanikum/smartyquest',
       demoLink: '#/smartyquest',
     },
     {
       title: '🏪 App Mart (Digital Marketplace)',
-      description: 'A digital marketplace for discovering and exploring various applications and tools. Currently under development with plans for a comprehensive app discovery platform.',
-      stack: 'React, Comprehensive App Discovery Platform',
+      description: 'A digital marketplace for discovering and exploring various applications and tools. Currently under development with plans for a comprehensive app discovery platform. The catalog is static and loaded from a JSON file.',
+      stack: 'React',
       status: 'Under Development (Sep 2025)',
-      repoLink: 'https://github.com/phanikum/appmart',
       demoLink: '#/appmart',
     },
   ];
